@@ -1,7 +1,7 @@
 if __name__ == '__main__':
     print('Введите результаты партий')
-    s=input()
-    #s = ('ADAAAA')
+    s = input()
+    # s = ('ADAAAA')
     Anton = s.count("A")
     Danik = s.count('D')
     if Anton > Danik:
